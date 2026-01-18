@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Our Love Story - 2 Years of Beautiful Memories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="map-container" id="map-container">
+        <!-- Animated floating hearts -->
+        <div class="floating-hearts">
+            <div class="heart heart-1">❤️</div>
+            <div class="heart heart-2">💕</div>
+            <div class="heart heart-3">💖</div>
+            <div class="heart heart-4">💗</div>
+            <div class="heart heart-5">❤️</div>
+            <div class="heart heart-6">💕</div>
+        </div>
+
+        <!-- Animated sparkles -->
+        <div class="sparkles">
+            <div class="sparkle sparkle-1">✨</div>
+            <div class="sparkle sparkle-2">⭐</div>
+            <div class="sparkle sparkle-3">✨</div>
+            <div class="sparkle sparkle-4">⭐</div>
+            <div class="sparkle sparkle-5">✨</div>
+            <div class="sparkle sparkle-6">⭐</div>
+            <div class="sparkle sparkle-7">✨</div>
+            <div class="sparkle sparkle-8">⭐</div>
+        </div>
+
+        <!-- Animated birds -->
+        <div class="birds">
+            <div class="bird bird-1">🐦</div>
+            <div class="bird bird-2">🐦</div>
+            <div class="bird bird-3">🐦</div>
+        </div>
+
+        <!-- Decorative corner flourishes -->
+        <div class="corner-flourish top-left-flourish">
+            <svg width="150" height="150" viewBox="0 0 150 150">
+                <path d="M 10 10 Q 10 50, 50 50 T 90 10" stroke="#000000" fill="none" stroke-width="3" opacity="0.8"/>
+                <path d="M 10 30 Q 10 60, 40 60 T 70 30" stroke="#ff1493" fill="none" stroke-width="2" opacity="0.6"/>
+            </svg>
+        </div>
+        <div class="corner-flourish top-right-flourish">
+            <svg width="150" height="150" viewBox="0 0 150 150">
+                <path d="M 140 10 Q 140 50, 100 50 T 60 10" stroke="#000000" fill="none" stroke-width="3" opacity="0.8"/>
+                <path d="M 140 30 Q 140 60, 110 60 T 80 30" stroke="#8B008B" fill="none" stroke-width="2" opacity="0.6"/>
+            </svg>
+        </div>
+        <div class="corner-flourish bottom-left-flourish">
+            <svg width="150" height="150" viewBox="0 0 150 150">
+                <path d="M 10 140 Q 10 100, 50 100 T 90 140" stroke="#000000" fill="none" stroke-width="3" opacity="0.8"/>
+                <path d="M 10 120 Q 10 90, 40 90 T 70 120" stroke="#8B008B" fill="none" stroke-width="2" opacity="0.6"/>
+            </svg>
+        </div>
+        <div class="corner-flourish bottom-right-flourish">
+            <svg width="150" height="150" viewBox="0 0 150 150">
+                <path d="M 140 140 Q 140 100, 100 100 T 60 140" stroke="#000000" fill="none" stroke-width="3" opacity="0.8"/>
+                <path d="M 140 120 Q 140 90, 110 90 T 80 120" stroke="#ff1493" fill="none" stroke-width="2" opacity="0.6"/>
+            </svg>
+        </div>
+
+        <!-- Header -->
+        <div class="header" id="header">
+            <h1 class="title">Our Love Story</h1>
+            <p class="subtitle">Two Years of Beautiful Memories</p>
+        </div>
+
+        <!-- Compass -->
+        <div class="compass" id="compass">
+            <div class="compass-inner">
+                <div class="compass-needle"></div>
+                <div class="compass-direction n">N</div>
+                <div class="compass-direction e">E</div>
+                <div class="compass-direction s">S</div>
+                <div class="compass-direction w">W</div>
+            </div>
+        </div>
+
+        <!-- SVG Path connecting all points -->
+        <svg class="path-svg" width="100%" height="100%">
+            <defs>
+                <linearGradient id="pinkGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#ff1493;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#8B008B;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <path id="journey-path" d="" stroke="#ff1493" stroke-width="3" stroke-dasharray="10,5" fill="none" opacity="0.7"/>
+        </svg>
+
+        <!-- Milestone 1: First Meeting -->
+        <div class="milestone" id="first-meeting" data-milestone="first-meeting" style="left: 10%; top: 55%;">
+            <div class="milestone-marker">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">👥</text>
+                </svg>
+            </div>
+            <div class="milestone-label">First Meeting</div>
+        </div>
+
+        <!-- Milestone 2: Confessing Feelings -->
+        <div class="milestone" id="confessing-feelings" data-milestone="confessing-feelings" style="left: 20%; top: 35%;">
+            <div class="milestone-marker">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">💕</text>
+                </svg>
+            </div>
+            <div class="milestone-label">Confessing Feelings</div>
+        </div>
+
+        <!-- Milestone 3: Ring Exchange -->
+        <div class="milestone" id="ring-exchange" data-milestone="ring-exchange" style="left: 30%; top: 60%;">
+            <div class="milestone-marker">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">💍</text>
+                </svg>
+            </div>
+            <div class="milestone-label">Ring Exchange</div>
+        </div>
+
+        <!-- Milestone 4: Future Cox's Bazar -->
+        <div class="milestone" id="future-coxs-bazar" data-milestone="future-coxs-bazar" style="left: 45%; top: 40%;">
+            <div class="milestone-marker">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">🏖️</text>
+                </svg>
+            </div>
+            <div class="milestone-label">Cox's Bazar</div>
+        </div>
+
+        <!-- Milestone 5: Future Maldives -->
+        <div class="milestone" id="future-maldives" data-milestone="future-maldives" style="left: 55%; top: 65%;">
+            <div class="milestone-marker">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">🏝️</text>
+                </svg>
+            </div>
+            <div class="milestone-label">Maldives</div>
+        </div>
+
+        <!-- Milestone 6: Demo 1 - A Beautiful Day -->
+        <div class="milestone" id="demo-1" data-milestone="demo-1" style="left: 68%; top: 45%;">
+            <div class="milestone-marker">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">☀️</text>
+                </svg>
+            </div>
+            <div class="milestone-label">A Beautiful Day</div>
+        </div>
+
+        <!-- Milestone 7: Demo 2 - Sweet Moments -->
+        <div class="milestone" id="demo-2" data-milestone="demo-2" style="left: 75%; top: 70%;">
+            <div class="milestone-marker">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">🍰</text>
+                </svg>
+            </div>
+            <div class="milestone-label">Sweet Moments</div>
+        </div>
+
+        <!-- Milestone 8: Demo 3 - Our Adventures -->
+        <div class="milestone" id="demo-3" data-milestone="demo-3" style="left: 85%; top: 50%;">
+            <div class="milestone-marker">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">🗺️</text>
+                </svg>
+            </div>
+            <div class="milestone-label">Our Adventures</div>
+        </div>
+
+        <!-- Milestone 9: Demo 4 - Final Message -->
+        <div class="milestone" id="demo-4" data-milestone="demo-4" style="left: 90%; top: 70%;">
+            <div class="milestone-marker pulse">
+                <svg width="60" height="80" viewBox="0 0 60 80">
+                    <path d="M30 0 C13.5 0 0 13.5 0 30 C0 52.5 30 80 30 80 C30 80 60 52.5 60 30 C60 13.5 46.5 0 30 0 Z" fill="url(#pinkGradient)"/>
+                    <circle cx="30" cy="30" r="15" fill="#4B0082"/>
+                    <text x="30" y="35" text-anchor="middle" fill="white" font-size="20">❤️</text>
+                </svg>
+            </div>
+            <div class="milestone-label">You Are Here</div>
+        </div>
+
+        <!-- Start Journey Button -->
+        <button class="start-journey-btn" id="start-journey">
+            <span class="btn-icon">❤️</span>
+            <span class="btn-text">Start Our Journey</span>
+            <span class="btn-icon">❤️</span>
+        </button>
+    </div>
+
+    <!-- Popup Modal -->
+    <div class="popup-modal" id="popup-modal">
+        <div class="popup-content">
+            <div class="popup-scroll-container" id="popup-scroll">
+                <!-- Content will be dynamically inserted here -->
+            </div>
+            <div class="scroll-indicator" id="scroll-indicator">
+                <div class="scroll-arrow">↓</div>
+                <p class="scroll-text">Scroll to continue</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
