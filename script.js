@@ -4,9 +4,9 @@ const milestoneData = {
         title: 'First Meeting',
         message: 'The day our paths crossed near Udvash in Dhanmondi...\n\nTwo hearts found each other in the most unexpected moment.',
         images: [
-            { url: 'https://via.placeholder.com/800x600/ff1493/ffffff?text=First+Meeting+Photo+1', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/8B008B/ffffff?text=First+Meeting+Photo+2', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/4B0082/ffffff?text=First+Meeting+Photo+3', direction: 'bottom' }
+            { url: './Myloveanniversary/IMG_6519.PNG', direction: 'bottom'},
+            { url: './Myloveanniversary/IMG_6736.jpg', direction: 'left' },
+            { url: './Myloveanniversary/IMG_6738.jpg', direction: 'right' },
         ],
         closingMessage: 'From that moment, everything changed... ✨',
         nextMilestone: 'Confessing Our Feelings',
@@ -17,10 +17,10 @@ const milestoneData = {
         title: 'Confessing Feelings',
         message: 'The moment when words finally found their way out...\n\nOur hearts spoke the truth they had been holding.',
         images: [
-            { url: 'https://via.placeholder.com/800x600/ff69b4/ffffff?text=Confession+Photo+1', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/da70d6/ffffff?text=Confession+Photo+2', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/ee82ee/ffffff?text=Confession+Photo+3', direction: 'bottom' },
-            { url: 'https://via.placeholder.com/800x600/ff1493/ffffff?text=Confession+Photo+4', direction: 'left' }
+            { url: './Myloveanniversary/IMG_6767.jpg', direction: 'left' },
+            { url: './Myloveanniversary/IMG_6769.jpg', direction: 'right' },
+            { url: './Myloveanniversary/IMG_6771.jpg', direction: 'bottom' },
+            { url: './Myloveanniversary/IMG_6780.PNG', direction: 'left' },
         ],
         closingMessage: 'You said yes, and my world became complete... 💕',
         nextMilestone: 'Ring Exchange',
@@ -31,11 +31,9 @@ const milestoneData = {
         title: 'Ring Exchange',
         message: 'A promise sealed with rings...\n\nA symbol of forever, a commitment of hearts.',
         images: [
-            { url: 'https://via.placeholder.com/800x600/ff1493/ffffff?text=Ring+Exchange+Photo+1', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/8B008B/ffffff?text=Ring+Exchange+Photo+2', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/4B0082/ffffff?text=Ring+Exchange+Photo+3', direction: 'bottom' },
-            { url: 'https://via.placeholder.com/800x600/ff69b4/ffffff?text=Ring+Exchange+Photo+4', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/da70d6/ffffff?text=Ring+Exchange+Photo+5', direction: 'right' }
+            { url: './Myloveanniversary/IMG_6864.jpg', direction: 'left' },
+            { url: './Myloveanniversary/IMG_6878.jpg', direction: 'right' },
+            { url: './Myloveanniversary/IMG_6876.JPG', direction: 'bottom' },
         ],
         closingMessage: 'With this ring, I promise you my forever... 💍',
         nextMilestone: 'Cox\'s Bazar',
@@ -44,11 +42,11 @@ const milestoneData = {
     
     'future-coxs-bazar': {
         title: 'Our Dream: Cox\'s Bazar',
-        message: 'Soon we\'ll walk on the longest beach in the world...\n\nHand in hand, watching the sunset over the Bay of Bengal.',
+        message: 'Soon After Marraige we\'ll walk on the beach...\n\nHand in hand, watching the sunset over the Bay of Bengal Cox\'s Bazar.',
         images: [
-            { url: 'https://via.placeholder.com/800x600/87ceeb/ffffff?text=Coxs+Bazar+Beach', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/4682b4/ffffff?text=Sunset+Together', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/5f9ea0/ffffff?text=Walking+Hand+in+Hand', direction: 'bottom' }
+            { url: './Myloveanniversary/IMG_2715.PNG', direction: 'left' },
+            { url: './Myloveanniversary/IMG_2714.PNG', direction: 'right' },
+            { url: './Myloveanniversary/IMG_2184.jpg', direction: 'bottom' },
         ],
         closingMessage: 'Our first adventure awaits... 🏖️',
         nextMilestone: 'Maldives',
@@ -59,63 +57,75 @@ const milestoneData = {
         title: 'Our Dream: Maldives',
         message: 'One day, we\'ll stand in paradise together...\n\nCrystal clear waters, white sand, and endless love.',
         images: [
-            { url: 'https://via.placeholder.com/800x600/00ced1/ffffff?text=Maldives+Ocean', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/20b2aa/ffffff?text=Overwater+Villa', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/48d1cc/ffffff?text=Paradise+Together', direction: 'bottom' }
+            { url: './Myloveanniversary/IMG_2717.PNG', direction: 'left' },
+            { url: './Myloveanniversary/IMG_2716.PNG', direction: 'right' },
+            { url: './Myloveanniversary/548B5571-CA36-47DB-8115-2BA170D4E125.PNG', direction: 'bottom' }
         ],
         closingMessage: 'A dream destination for our endless journey... 🏝️',
         nextMilestone: 'A Beautiful Day',
-        nextId: 'demo-1'
-    },
-    
-    'demo-1': {
-        title: 'A Beautiful Day',
-        message: 'Every moment with you is a treasure...\n\nThis memory holds a special place in my heart.',
-        images: [
-            { url: 'https://via.placeholder.com/800x600/ff1493/ffffff?text=Beautiful+Day+Photo+1', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/8B008B/ffffff?text=Beautiful+Day+Photo+2', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/4B0082/ffffff?text=Beautiful+Day+Photo+3', direction: 'bottom' },
-            { url: 'https://via.placeholder.com/800x600/ff69b4/ffffff?text=Beautiful+Day+Photo+4', direction: 'left' }
-        ],
-        closingMessage: 'Thank you for making every day magical... ✨',
-        nextMilestone: 'Sweet Moments',
         nextId: 'demo-2'
     },
+    
+    // 'demo-1': {
+    //     title: 'A Beautiful Day',
+    //     message: 'Every moment with you is a treasure...\n\nThis memory holds a special place in my heart.',
+    //     images: [
+    //         { url: './Myloveanniversary/IMG_8115.PNG', direction: 'left' },
+    //         { url: './Myloveanniversary/IMG_2073.JPG', direction: 'right' },
+    //         { url: './Myloveanniversary/IMG_8093.PNG', direction: 'bottom' },
+    //     ],
+    //     closingMessage: 'Thank you for making every day magical... ✨',
+    //     nextMilestone: 'Sweet Moments',
+    //     nextId: 'demo-2'
+    // },
     
     'demo-2': {
         title: 'Sweet Moments Together',
         message: 'The little things we share...\n\nLaughter, joy, and endless memories.',
         images: [
-            { url: 'https://via.placeholder.com/800x600/ff1493/ffffff?text=Sweet+Moment+1', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/8B008B/ffffff?text=Sweet+Moment+2', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/4B0082/ffffff?text=Sweet+Moment+3', direction: 'bottom' }
+            { url: './Myloveanniversary/IMG_8115.PNG', direction: 'left' },
+            { url: './Myloveanniversary/IMG_2073.JPG', direction: 'right' },
+            { url: './Myloveanniversary/IMG_8093.PNG', direction: 'bottom' },
+            { url: './Myloveanniversary/IMG_8535_SnapseedCopy.jpg', direction: 'left' },
+            { url: './Myloveanniversary/IMG_2630.jpg', direction: 'right' },
+            { url: './Myloveanniversary/IMG_8598.jpg', direction: 'bottom' },
+            { url: './Myloveanniversary/IMG_2585.jpg', direction: 'left' },
+            { url: './Myloveanniversary/IMG_8541.jpg', direction: 'right' },
+            { url: './Myloveanniversary/IMG_7517.jpg', direction: 'right' },
+            { url: './Myloveanniversary/IMG_8547.jpg', direction: 'left' },
+
         ],
         closingMessage: 'Every second with you is precious... 💝',
         nextMilestone: 'Our Adventures',
-        nextId: 'demo-3'
-    },
-    
-    'demo-3': {
-        title: 'Our Adventures',
-        message: 'Exploring the world together...\n\nCreating stories we\'ll tell forever.',
-        images: [
-            { url: 'https://via.placeholder.com/800x600/ff69b4/ffffff?text=Adventure+Photo+1', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/da70d6/ffffff?text=Adventure+Photo+2', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/ee82ee/ffffff?text=Adventure+Photo+3', direction: 'bottom' },
-            { url: 'https://via.placeholder.com/800x600/ff1493/ffffff?text=Adventure+Photo+4', direction: 'left' }
-        ],
-        closingMessage: 'More adventures await us... 🗺️',
-        nextMilestone: 'Final Message',
         nextId: 'demo-4'
     },
+    
+    // 'demo-3': {
+    //     title: 'Our Adventures',
+    //     message: 'Exploring the world together...\n\nCreating stories we\'ll tell forever.',
+    //     images: [
+    //         { url: 'https://via.placeholder.com/800x600/ff69b4/ffffff?text=Adventure+Photo+1', direction: 'left' },
+    //         { url: 'https://via.placeholder.com/800x600/da70d6/ffffff?text=Adventure+Photo+2', direction: 'right' },
+    //         { url: 'https://via.placeholder.com/800x600/ee82ee/ffffff?text=Adventure+Photo+3', direction: 'bottom' },
+    //         { url: 'https://via.placeholder.com/800x600/ff1493/ffffff?text=Adventure+Photo+4', direction: 'left' }
+    //     ],
+    //     closingMessage: 'More adventures await us... 🗺️',
+    //     nextMilestone: 'Final Message',
+    //     nextId: 'demo-4'
+    // },
     
     'demo-4': {
         title: 'Happy 2nd Anniversary!',
         message: 'Two years of love, laughter, and beautiful memories...\n\nHere\'s to forever with you, Sania!',
         images: [
-            { url: 'https://via.placeholder.com/800x600/ff1493/ffffff?text=Anniversary+Photo+1', direction: 'left' },
-            { url: 'https://via.placeholder.com/800x600/8B008B/ffffff?text=Anniversary+Photo+2', direction: 'right' },
-            { url: 'https://via.placeholder.com/800x600/4B0082/ffffff?text=Anniversary+Photo+3', direction: 'bottom' }
+            { url: './Myloveanniversary/IMG_0996.JPG', direction: 'left' },
+            { url: './Myloveanniversary/IMG_1004.JPG', direction: 'right' },
+            { url: './Myloveanniversary/IMG_2339.JPG', direction: 'bottom' },
+            { url: './Myloveanniversary/IMG_7534.jpg', direction: 'left' },
+            { url: './Myloveanniversary/IMG_8537.jpg', direction: 'right' },
+            { url: './Myloveanniversary/IMG_2339.JPG', direction: 'bottom' },
+            { url: './Myloveanniversary/IMG_8953.JPG', direction: 'left' },
+            { url: './Myloveanniversary/IMG_2532.GIF', direction: 'right' },
         ],
         closingMessage: 'I love you more each day. ❤️\n\nHere\'s to our forever... 💕',
         nextMilestone: null,
@@ -150,10 +160,9 @@ function drawJourneyPath() {
         { id: 'confessing-feelings', left: 20, top: 35 },
         { id: 'ring-exchange', left: 30, top: 60 },
         { id: 'future-coxs-bazar', left: 45, top: 40 },
-        { id: 'future-maldives', left: 55, top: 65 },
-        { id: 'demo-1', left: 68, top: 45 },
-        { id: 'demo-2', left: 75, top: 70 },
-        { id: 'demo-3', left: 85, top: 50 },
+        { id: 'future-maldives', left: 60, top: 65 },
+        { id: 'demo-2', left: 75, top: 45 },
+        // { id: 'demo-3', left: 85, top: 50 },
         { id: 'demo-4', left: 90, top: 70 }
     ];
     
